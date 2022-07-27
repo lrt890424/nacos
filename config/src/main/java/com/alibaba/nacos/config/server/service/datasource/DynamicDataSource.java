@@ -42,7 +42,6 @@ public class DynamicDataSource {
             
             // Embedded storage is used by default in stand-alone mode
             // In cluster mode, external databases are used by default
-            
             if (PropertyUtil.isEmbeddedStorage()) {
                 if (localDataSourceService == null) {
                     localDataSourceService = new LocalDataSourceServiceImpl();

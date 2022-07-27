@@ -22,8 +22,8 @@ rem removed the last 5 chars(which means \bin\) to get the base DIR.
 set BASE_DIR="%BASE_DIR:~0,-5%"
 
 set CUSTOM_SEARCH_LOCATIONS=file:%BASE_DIR%/conf/
-
-set MODE="cluster"
+rem set MODE="cluster"
+set MODE="standalone"
 set FUNCTION_MODE="all"
 set SERVER=nacos-server
 set MODE_INDEX=-1

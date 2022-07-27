@@ -1,0 +1,1 @@
+mvn -Prelease-nacos -Dmaven.test.skip=true -Drat.skip=true -Dpmd.skip=true -Dcheckstyle.skip=true  clean install -U

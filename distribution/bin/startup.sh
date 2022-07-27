@@ -52,7 +52,8 @@ if [ -z "$JAVA_HOME" ]; then
 fi
 
 export SERVER="nacos-server"
-export MODE="cluster"
+#export MODE="cluster"
+export MODE="standalone"
 export FUNCTION_MODE="all"
 export MEMBER_LIST=""
 export EMBEDDED_STORAGE=""
